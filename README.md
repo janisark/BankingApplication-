@@ -1,98 +1,74 @@
+# Online Banking Full Stack Project (Frontend) – README
 
-# Online Banking Full Stack Project Frontent Readme File
+This is a full-stack Online Banking Application. You can access the frontend codebase in this repository. This README focuses on the **frontend**.
 
-This is a full-stack project. You can access the backend details of the project from the link below. At this point, we will focus on the frontend.
+> 🔗 **Frontend Project:** [BankingApplication-](https://github.com/janisark/BankingApplication-)
 
-Java Spring Online Banking Rest Api [Java Spring Rest API]( https://github.com/Berko01/Advanced-Backend-Project-With-Java-Spring-Online-Banking-Rest-Api)
+---
 
+## 🔍 Project Overview
 
-The application is a Frontend project prepared for the Online Banking Rest API. React and Redux are used in the frontend of the application. The project is a single-page application, and I have fully leveraged the benefits provided by Redux. Every component you will see in the project is connected to the Redux Store. When the state of one component changes, all components that need to update their state automatically do so, providing users with real-time information.
+This frontend is built with **React** and **Redux**, and is a complete single-page application (SPA). All components are connected to the Redux Store, ensuring that state changes in one component are reflected in all relevant parts of the application.
 
-Users can register, log in, view their account history, open new accounts, make transfers between accounts, deposit money, withdraw money, and make payments. Additionally, a self-updating chart has been prepared for users to view their account flows. In short, the components are constantly in communication with the backend, ensuring seamless interaction.
+### 👤 Key Features for Users:
+- Register & login
+- View account history
+- Open new accounts
+- Transfer funds between accounts
+- Deposit & withdraw money
+- Make payments
+- View real-time charts showing account flow
 
-If you want to watch the project video you can visit my LinkedIn account:
+The frontend constantly interacts with the backend, ensuring smooth and dynamic user experiences.
 
-My LinkedIn Account [LinkedIn]( https://www.linkedin.com/feed/)
+---
 
+## 📸 Project Images
 
+| Login Page | Dashboard | Account Details |
+|------------|-----------|-----------------|
+| ![Login](loginPage.png) | ![Page1](ProjecPage1.png) | ![Page2](ProjectPage2.png) |
+| ![Page3](ProjectPage3.png) | ![Page5](ProjectPage5.png) |
 
+---
 
-If you want to learn more about React and Redux, you can check out my article on React and Redux:
+## 🚀 Features
 
-React and Redux Article [My Article]( https://medium.com/@berkindundar2001/react-nedir-ve-react-redux-neden-%C3%B6nemlidir-4c846d7a5124)
+- Built with **React** & **Redux**
+- SPA (Single Page Application)
+- Responsive Design with **Material UI**
+- Real-time chart updates
+- Secure and user-friendly
 
+---
 
-Feel free to ask if you have any further questions or need additional information!
+## 🔧 Getting Started
 
-
-
-
-
-
-
-## Project Images and Components
-
-![Uygulama Ekran Görüntüsü](loginPage.png)
-
-![Uygulama Ekran Görüntüsü](ProjecPage1.png)
-
-![Uygulama Ekran Görüntüsü](ProjectPage2.png)
-
-![Uygulama Ekran Görüntüsü](ProjectPage3.png)
-
-![Uygulama Ekran Görüntüsü](ProjectPage5.png)
-
-
-  
-## Features
-
-- React and Redux
-- Single Page Application
-- Material UI
-
-
-  
-## Distribution
-
-1- Clone the project to your local machine.
-2- Build and run the application using your preferred Java Script environment.
-
-Start for Project
-
-```terminal
-  npm install
-```
+Clone the repo and install dependencies:
 
 ```bash
-  npm run start
-```
-
-  
-## Technologies
-
-**Language:** Java Script 
-
-**Technologies:** - React, Redux, Router Dom
-- Redux Thunk
-  
-## Related projects
-
-You can take a look at the frontends for my React Redux Online Banking App and Android Java Online Banking App projects for this application.
-
-Java Spring Online Banking Rest Api [Java Spring Rest API]( https://github.com/Berko01/Advanced-Backend-Project-With-Java-Spring-Online-Banking-Rest-Api)
-
-Android Online Banking App: [Android Java Online Banking App]( https://github.com/Berko01/Android-Online-Banking-App-With-Java-Spring)
+git clone https://github.com/janisark/BankingApplication-.git
+cd BankingApplication-
+npm install
+npm run start
 
 
+🧰 Technologies Used :---
+-> Language: JavaScript
+-> Frontend: React, Redux, Redux Thunk, React Router DOM
+-> UI Library: Material UI
+-> Backend: Spring Boot (you can connect it to your own REST API)
 
+🔁 Related Projects
+-> If you are building or planning to build the backend, consider using Java Spring Boot to create a RESTful API.
 
-  
-## Extracted Lessons
+📚 Lessons Learned
+-> React & Redux integration
+-> Redux Thunk for async handling
+-> Connecting frontend with REST APIs
+-> CORS policy handling
+-> Material UI usage
+-> JWT and cookie-based authentication
 
-React, Redux, Thunk usage. JavaScript experiences. Communication with backend. CORS Policy Setting. MUI usage. Frontend web development. JWT and cookies.
-  
-## Programmers
-
-- [@Berko01](https://github.com/Berko01) design and development.
-
-  
+👨‍💻 Author
+Created & maintained by @janisark
